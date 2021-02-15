@@ -1,0 +1,26 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "is a restaurant app that lets users input the names of burgers and moves that name to a seperate columnm, but clicking a button",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrramontorres/burger.git"
+  },
+  "author": "ramon torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrramontorres/burger/issues"
+  },
+  "homepage": "https://github.com/mrramontorres/burger#readme"
+}
