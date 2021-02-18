@@ -4,8 +4,9 @@
   "description": "is a restaurant app that lets users input the names of burgers and moves that name to a seperate columnm, but clicking a button",
   "main": "server.js",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "express-handlebars": "^5.2.0",
+    "express-handlebars": "^5.2.1",
     "mysql": "^2.18.1"
   },
   "devDependencies": {},

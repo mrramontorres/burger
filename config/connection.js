@@ -5,7 +5,7 @@ const connection = mysql.createConnection({
   host: 'localhost',
   port: 3306,
   user: 'root',
-  password: Process.env.DOCSERV,
+  password: process.env.DOCSERV,
   database: 'burgers_db',
 });
 
