@@ -2,9 +2,9 @@ body {
     font-family: sans-serif;
     background-color: #ff7700;
 }
-li {
-    padding: 5px;
-    margin: 5px;
+ul {
+    padding: 10px;
+    margin: 10px;
     background: #faebd7;
 }
   
