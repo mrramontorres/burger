@@ -20,7 +20,6 @@ router.get('/', (req, res) => {
 
 router.post('/api/burgers', (req, res) => {
   console.log("post router activated");
-//  console.log(req.body);
   burger.insertOne(['burger_name', 'devoured'], [req.body.burger_name, req.body.devoured], (result) => {
     // Send back the ID of the new burger added
     res.json({ id: result.insertId });
@@ -36,7 +35,7 @@ router.put('/api/burgers/:id', (req, res) => {
 
   burger.updateOne(
     {
-      devoured: req.body.devoured,
+      devoured: true,
     },
     condition,
     (result) => {
